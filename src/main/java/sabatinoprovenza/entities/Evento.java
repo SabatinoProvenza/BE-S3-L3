@@ -71,4 +71,28 @@ public class Evento {
     public void setPartecipazioni(List<Partecipazione> partecipazioni) {
         this.partecipazioni = partecipazioni;
     }
+
+    public String getTitolo() {
+        return titolo;
+    }
+
+    public void setTitolo(String titolo) {
+        this.titolo = titolo;
+    }
+
+    public TipoEvento getTipoEvento() {
+        return tipoEvento;
+    }
+
+    public void setTipoEvento(TipoEvento tipoEvento) {
+        this.tipoEvento = tipoEvento;
+    }
+
+    public int getNumeroMassimoPartecipanti() {
+        return numeroMassimoPartecipanti;
+    }
+
+    public void setNumeroMassimoPartecipanti(int numeroMassimoPartecipanti) {
+        this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
+    }
 }

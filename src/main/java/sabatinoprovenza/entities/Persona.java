@@ -39,11 +39,43 @@ public class Persona {
         return id;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public List<Partecipazione> getPartecipazioni() {
         return partecipazioni;
     }
 
     public void setPartecipazioni(List<Partecipazione> partecipazioni) {
         this.partecipazioni = partecipazioni;
+    }
+
+    public String getCognome() {
+        return cognome;
+    }
+
+    public void setCognome(String cognome) {
+        this.cognome = cognome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Sesso getSesso() {
+        return sesso;
+    }
+
+    public void setSesso(Sesso sesso) {
+        this.sesso = sesso;
     }
 }
