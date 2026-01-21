@@ -27,13 +27,12 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String nome, String cognome, String email, LocalDate dataDiNascita, Sesso sesso, List<Partecipazione> partecipazioni) {
+    public Persona(String nome, String cognome, String email, LocalDate dataDiNascita, Sesso sesso) {
         this.nome = nome;
         this.cognome = cognome;
         this.email = email;
         this.dataDiNascita = dataDiNascita;
         this.sesso = sesso;
-        this.partecipazioni = partecipazioni;
     }
 
     public UUID getId() {

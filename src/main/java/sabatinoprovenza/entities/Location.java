@@ -21,8 +21,7 @@ public class Location {
 
     }
 
-    public Location(UUID id, String nome, String citta) {
-        this.id = id;
+    public Location(String nome, String citta) {
         this.nome = nome;
         this.citta = citta;
     }
@@ -30,5 +29,5 @@ public class Location {
     public UUID getId() {
         return id;
     }
-    
+
 }
